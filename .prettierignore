@@ -1,0 +1,15 @@
+# IgnoredByDefault
+
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+## Adicional
+
+**/*.mjs
+**/*.html
+dist
+build
+coverage
+.next
