@@ -7,13 +7,12 @@ export default styled.select`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
   height: 52px;
   border-radius: 4px;
-  border: none;
   outline: none;
   padding: 0px 16px;
   font-size: 16px;
   transition: border-color 0.2s ease-in;
 
   &:focus {
-    border-color: 2px solid ${({ theme }) => theme.colors.primary.main};
+    border-color: ${({ theme }) => theme.colors.primary.main};
   }
 `;
